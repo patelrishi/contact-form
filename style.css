@@ -350,6 +350,7 @@ nav .fa-solid{
     font-size: xx-large;
     position: absolute;
     margin-top: 100%;
+    margin-left: -30px;
 }
 .nav ul li{
     display: flex;
