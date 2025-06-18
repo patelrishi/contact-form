@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/f167577203.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div id="header">
+            <div class="container">
+                <nav>
+                   <!-- <img src="images/logo.png" class="logo"> -->
+                    <h2 class="logos"><span class="logosc">R</span>ishi</h2>
+                    <ul id="slidemenu">
+                        <li><a href="#header">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <i class="fa-solid fa-xmark" onclick="closmenu()"></i> 
+                    </ul>
+                    <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+                </nav>
+                <div class="header-text">
+                    <p><i class="fa-solid fa-code"></i> Web Developer</p>
+                    <h1>Hi I am <span>Rishi patel</span><br> from Telangana</h1>
+                </div>
+            </div>
+        </div>
+
+        <!----------------About-------------------->
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="images/risi.png">
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="sub-title">About Me</h1>
+                        <p>I am from Telangana i have completed my PostGraduation (Master of Business Administration) at University Arts and Science college, after completion I learnt web development at Naresh i technology. </p><br>
+
+                        <div class="tab-title"> <!--Titles-->
+                            <div class="tab-links active-link" onclick="opentab('skills')">Skills</div>
+                            <div class="tab-links" onclick="opentab('experience')">Experience</div>
+                            <div class="tab-links" onclick="opentab('education')">Education</div>
+                        </div>
+
+                        <div class="tab-contents active-tab" id="skills"> <!--Skills-->
+                            <ul>
+                                <li><span>Web Developing </span><br>web app development</li>
+                            </ul>
+                        </div>
+
+                        <div class="tab-contents" id="experience"> <!--Experience-->
+                            <ul>
+                                <li>I'm a Fresher Am Looking for Job<br></li>
+                            </ul>
+                        </div>
+
+                        <div class="tab-contents" id="education"> <!--Education-->
+                            <ul>
+                                <li><span>2024</span><br>web development training at NareshITech<br></li>
+                                <li><span>2023  </span><br>MBA From Kakatiya University<br></li>
+                                <li><span>2021 </span><br>Bsc From Satavahana University<br></li>
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!---------------- services------------------->
+
+        <div id="services">
+            <div class="container">
+                <h1 class="sub-title"> My services</h1>
+                <div class="services-list">
+                    <div>
+                        <i class="fa-solid fa-code"></i>
+                        <h2>Web Design</h2>
+                        <p>Web designing is the process of creating and designing websites that are visually appealing, user-friendly, and functional. It involves both the aesthetic aspect of a website (how it looks) and the functional aspect (how it works and how users interact with it).</p>
+                        <a href="#">learn more</a>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-crop-simple"></i>
+                        <h2>UI/UX Design</h2>
+                        <p>UI/UX design refers to the process of designing the User Interface (UI) and User Experience (UX) of digital products such as websites, mobile apps, or software. Though they are closely related, they focus on different aspects of design:</p>
+                        <a href="#">learn more</a>
+                    </div>
+                    <div>
+                        <i class="fa-brands fa-app-store-ios"></i>
+                        <h2>App Design</h2>
+                        <p>App design refers to the process of planning, creating, and structuring the visual layout and user experience of a mobile or desktop application. It involves both UI (User Interface) and UX (User Experience) design to ensure the app is both attractive and easy to use.</p>
+                        <a href="#">learn more</a>
+                    </div>
+
+                </div>
+                
+            </div>
+        </div>
+
+        <!---------------portfolio---------------->
+
+        <div id="portfolio">
+            <div class="container">
+                <h1 class="sub-title">My Work</h1>
+                <div class="work-list">
+                    <div class="work">
+                        <img src="images/work-1.png">
+                        <div class="layer">
+                            <h3>Social Media</h3>
+                            <p>This App Connect you to any people around the World.
+                                Download it from Playstore.</p>
+                            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div> 
+
+                    <div class="work">
+                        <img src="images/work-2.png">
+                        <div class="layer">
+                            <h3>Music App</h3>
+                            <p>Listen Music is the theraphy and it is reducing Strees and Anxiety.
+                                Download it from Playstore.</p>
+                            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="work">
+                        <img src="images/work-3.png">
+                        <div class="layer">
+                            <h3>Online shoping App</h3>
+                            <p>Online shoping is a Convenient Alternative to traditional due to its ease of use, variety, and availability.
+                                Download it from Playstore.</p>
+                            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <a href="#" class="btn">See more</a>
+            </div>
+        </div>
+         
+    <!---------------Contact--------------->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>saipatel9696@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i>+919100353545</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/vamshi.dadhi/"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/rishipatel9_6/"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/vamshi-dadi-92437233a"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/patelrishi"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                    <a href="images/my-cv.pdf" download class="btn btn2" >Download CV</a>
+                </div>
+
+                <div class="contact-right">
+                    <form>
+                     <input type="text" name="Name" placeholder="Your Name" required>
+                     <input type="email" name="Email" placeholder="Your Email" required>
+                     <textarea name="Message" placeholder="your Message" row="6"></textarea>
+                     <button type="submit" class="btn btn2" >Submit </button>
+                    </form>
+                    <span id="msg">Hello</span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>copyright &copy; RishiPatel.</p>
+        </div>
+    </div>
+
+        <script>
+            var tablinks = document.getElementsByClassName('tab-links');
+            var tabcontents = document.getElementsByClassName('tab-contents');
+
+            function opentab(tabname){
+               for(tablink of tablinks){
+                    tablink.classList.remove("active-link");
+                }
+                for(tabcontent of tabcontents){
+                    tabcontent.classList.remove("active-tab");
+                } 
+
+                event.currentTarget.classList.add("active-link");
+                document.getElementById(tabname).classList.add("active-tab");
+            }
+        </script>
+        <script>
+            var slidemeu = document.getElementById("slidemenu");
+            function openmenu(){
+                slidemeu.style.right= "0"
+            }
+            function closmenu(){
+                slidemeu.style.right= "-200px"
+            }
+        </script>
+
+    </body>
+</html>
