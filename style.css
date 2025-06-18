@@ -420,7 +420,7 @@ nav ul .fa-solid{
 }
 
 #msg{
-    color: #5e17c1;
-    font-size: 14px;
-    display: inline-block;
+    color: #61b752;
+    margin-top: -20px;
+    display: block;
 }
